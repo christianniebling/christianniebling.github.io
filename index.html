@@ -1,4 +1,14 @@
-<p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><u>what is unconscious bias and why Is it important?</u></p>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+
+
+</head>
+<body>
+
+<h1 style='text-align: center; margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;font-family:"Calibri",sans-serif;'><u>what is unconscious bias and why Is it important?</u></h1>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>&nbsp;</p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>Unconscious Bias are social stereotypes regarding groups of people that is formed outside of one&rsquo;s own conscious awareness [1]. Unconscious Bias is something that affects everyone, even those that are aware of its presence, but awareness is the first step to countering these biases.</p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>One might think they are aware of their biases and refuse to believe they can be capable of stereotyping people after working hard to rid themselves of bias. But bias is engrained in us as humans, something that needs to be continually worked on</p>
@@ -26,4 +36,44 @@
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>Unconscious bias is correlated with the time given for someone to make a decision. Taking time to reflect on decisions can help suppress these conscious biases as they move to the conscious side of your memory.</p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'><u>References</u></p>
 <p style='margin-top:0in;margin-right:0in;margin-bottom:8.0pt;margin-left:0in;line-height:107%;font-size:15px;font-family:"Calibri",sans-serif;'>NPR shortwave &ndash; understanding unconscious Bias</p>
-<img src="/fig2b.png"/>
+<p><img src="fig2b.png"/></p>
+<div class="myButton">This is a button</div>
+
+
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
