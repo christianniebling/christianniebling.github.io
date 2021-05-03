@@ -7,6 +7,10 @@ background: #144E75; }
 
 
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* Style the buttons that are used to open and close the accordion panel */
